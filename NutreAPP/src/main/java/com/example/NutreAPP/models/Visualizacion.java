@@ -31,7 +31,7 @@ public class Visualizacion {
 
     //Creando una relacion
     @ManyToOne
-    @JoinColumn(name = "id_usuario")
+    @JoinColumn(name = "id")
     @JsonBackReference(value = "usuario-visualizacion")  
     private Usuario usuario;
 
